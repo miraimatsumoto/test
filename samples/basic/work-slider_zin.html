@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About the lost</title>
+    <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+    <meta name="viewport" content="width=device-width, initile-scale=1">
+    <meta name="viewport" content="width = 1050, user-scalable = no" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link href="../../css_work/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link href="../../css/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../../css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../../css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../../css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+  </head>
+
+  <body>
+    <nav id="gnav" class="fixed">
+      <ul>
+        <li><a href="../../index.html#works">JAPANESE PAINTING</a></li>
+        <li><a href="../../index.html#feature">FEATURE</a></li>
+        <li><a href="../../index.html#film">FILM</a></li>
+        <li><a href="../../index.html#zine">ZINE</a></li>
+        <li><a href="../../index.html#otherworks">OTHER WORKS</a></li>
+        <li><a href="../../index.html#about">ABOUT</a></li>
+        <li><a href="../../index.html#exhibitions">EXHIBITIONS</a></li>
+        <li><a href="../../index.html#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!--スライダーの記述-->
+
+    <div class="flipbook-viewport">
+    	<div class="container">
+    		<div class="flipbook">
+    			<div style="background-image:url(pages/1.jpg)"></div>
+    			<div style="background-image:url(pages/2.jpg)"></div>
+    			<div style="background-image:url(pages/3.jpg)"></div>
+    			<div style="background-image:url(pages/4.jpg)"></div>
+    			<div style="background-image:url(pages/5.jpg)"></div>
+    			<div style="background-image:url(pages/6.jpg)"></div>
+    			<div style="background-image:url(pages/7.jpg)"></div>
+    			<div style="background-image:url(pages/8.jpg)"></div>
+    			<div style="background-image:url(pages/9.jpg)"></div>
+    			<div style="background-image:url(pages/10.jpg)"></div>
+    			<div style="background-image:url(pages/11.jpg)"></div>
+    			<div style="background-image:url(pages/12.jpg)"></div>
+    			<div style="background-image:url(pages/13.jpg)"></div>
+    			<div style="background-image:url(pages/14.jpg)"></div>
+    			<div style="background-image:url(pages/15.jpg)"></div>
+    			<div style="background-image:url(pages/16.jpg)"></div>
+    			<div style="background-image:url(pages/17.jpg)"></div>
+    			<div style="background-image:url(pages/18.jpg)"></div>
+    			<div style="background-image:url(pages/19.jpg)"></div>
+    			<div style="background-image:url(pages/20.jpg)"></div>
+    			<div style="background-image:url(pages/21.jpg)"></div>
+    			<div style="background-image:url(pages/22.jpg)"></div>
+    			<div style="background-image:url(pages/23.jpg)"></div>
+    			<div style="background-image:url(pages/24.jpg)"></div>
+    		</div>
+    		</div>
+    	</div>
+    <!--スライダーの記述ここまで-->
+
+  <div class="menu-content wrapper">
+        <h2 class="page-title-book">About the lost</h2>
+        <p>
+          2019<br>
+          The concept of this zine was "something lost".<br>
+          I aimed to create a work that gives everyone an opportunity to <br>recall the memory of something or somebody<br>that's important.
+          <br> Exhibited at the Women's Power Exhibition in 2019.
+        </p>
+      </div><!--menu-content-->
+
+
+
+    <footer id="footer">
+      <div class="pageTop">
+        <div id="js-pageTop"><a href="index.html">
+          HOME</a>
+        </div>
+
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;mirai matsumoto. All Rights Reserved.</>
+        </div>
+    </footer>
+
+
+    <!--slider-->
+    <script type="text/javascript">
+
+    function loadApp() {
+
+    	// Create the flipbook
+
+    	$('.flipbook').turn({
+    			// Width
+
+    			width:922,
+
+    			// Height
+
+    			height:600,
+
+    			// Elevation
+
+    			elevation: 50,
+
+    			// Enable gradients
+
+    			gradients: true,
+
+    			// Auto center this flipbook
+
+    			autoCenter: true
+
+    	});
+    }
+
+    // Load the HTML4 version if there's not CSS transform
+
+    yepnope({
+    	test : Modernizr.csstransforms,
+    	yep: ['../../lib/turn.js'],
+    	nope: ['../../lib/turn.html4.min.js'],
+    	both: ['css/basic.css'],
+    	complete: loadApp
+    });
+
+    </script>
+
+  </body>
+
+
+</html>
